@@ -9,4 +9,4 @@ RUN mkdir -p -m 0755 /var/lib/redis \
 
 VOLUME ["/var/lib/redis"]
 
-CMD echo "redis data container (providing var/lib/redis and /run/redis)"
+CMD echo "redis data container (providing var/lib/redis)"
